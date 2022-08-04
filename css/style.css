@@ -7,10 +7,12 @@ html, body {
 
 body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: 50%;
+  background-size: 10%;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-color: black;
+  background-image: url(../image.png;)
 }
 
 .wrapper {
@@ -22,11 +24,13 @@ body {
 #content {
   padding: 20px;
   background: rgba(255,255,255,.85);
+  margin-left: 50px;
+  
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: white;
 }
 
 h1 {
@@ -85,9 +89,9 @@ a:hover {
   }
 }
 .wrapper{
-  color: chartreuse;
+  color: black;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(236, 134, 10);
-  
+text-align: center;
+    
 }
